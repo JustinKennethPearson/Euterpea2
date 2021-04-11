@@ -1,3 +1,16 @@
+
+This is my own fork of Euterpea so that it is actually usable. Donya
+Quick does not seem to have time to update the repository and
+currently it is impossible to use because of the outdated cabal
+file. I am not a cabal expert, but I have modernised the cabal file a
+bit and taken out all the version numbers so that it picks up the
+latest versions  of the packages. As of now it seems to run with ghc
+version 9.0.1. There is a lot that should be done: for example taking
+out support for ghc < 6 , which would eliminate the need for using the
+CPP extension; and modernising some of the code.
+
+
+
 Version 2.0.8
 Last modified: 16-June-2019
 Website: http://www.euterpea.com
