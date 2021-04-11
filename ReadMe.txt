@@ -10,6 +10,21 @@ out support for ghc < 6 , which would eliminate the need for using the
 CPP extension; and modernising some of the code.
 
 
+If you want to use this version. Then you can use the magic of
+cabal.project files. In your cabal put the following into your
+cabal.project file
+```
+packages: .
+
+source-repository-package
+   type: git
+   location: https://github.com/JustinKennethPearson/EuterpeaJ.git
+```
+
+Then in your cabal project simply add Euterpea to the build depends
+and everything seems to work. I am sure  that there is a more
+efficient way of doing this, but I'm not a cabal guru. 
+  
 
 Version 2.0.8
 Last modified: 16-June-2019
